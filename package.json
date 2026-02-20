@@ -1,0 +1,15 @@
+{
+  "name": "l8_nodebase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "start": "nodemon --env-file=.env.development index.js",
+  "build": "node --env-file=.env.production index.js",
+  "deploy": "node --env-file=.env.domain index.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
